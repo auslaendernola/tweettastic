@@ -10,7 +10,12 @@
 
   <body>
     <div class="container-fluid">
-      <%= yield %>
+      <p id="notice">
+        <%= notice %>
+      </p>
+      <div class="container-fluid">
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
